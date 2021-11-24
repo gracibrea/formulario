@@ -1,0 +1,59 @@
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+body {
+    font-family: 'Fira Sans';
+    padding: 10px 100px;
+}
+
+label {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+}
+
+label.tech, .prof {
+    display:contents;
+}
+
+input.text, textarea, select { 
+    padding: 5px;
+    width: 400px;
+}
+
+input {
+    padding: 5px;
+}
+
+select {
+    padding: 5px;
+}
+
+textarea {
+    height: 200px;
+    resize: none; /*desabilita a possibilidade de o usuário redimensionar o campo*/
+}
+
+.termoslink {
+    text-decoration: none;
+    color: black;
+}
+
+.termoslink:hover {
+    text-decoration: underline;
+}
+
+button {
+    border-radius: 20% 0 20%;
+    border-style: none;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
